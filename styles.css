@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Rubik', sans-serif;
+}
+
+.header {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.navbar {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logo {
+    width: 149px;
+    height: auto;
+}
+
+.navbar__items-link {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #4F5665;
+    margin: 0 20px;
+    font-weight: 400;
+}
+
+.navbar__sign-in {
+    color: #0B132A;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin-right: 30px;
+}
+
+.btn {
+    color: #F53855;
+    border: 1px solid #F53855;
+    width: 150px;
+    border-radius: 50px;
+    height: 45px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    background: #FFFFFF;
+}
