@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+/* Estilo general */
+.container__section {
+    width: 80%;
+    display: flex;
+}
+/* Estilo general */
+
+
 html {
     font-size: 62.5%;
     font-family: 'Rubik', sans-serif;
@@ -20,12 +28,9 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
 }
 
 .navbar__container {
-    width: 80%;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -76,6 +81,69 @@ html {
     background: #FFFFFF;
     cursor: pointer;
 }
+
+.hero {
+    width: 100%;
+    margin-top: 52px;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__container {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__section-left {
+    width: 47%;
+    padding-right: 40px;
+}
+
+.hero__section-right {
+    width: 53%;
+}
+
+.hero__img {
+    width: 100%;
+}
+
+.hero__title {
+    font-size: 4.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #0B132A;
+    line-height: 70px;
+
+}
+
+.hero__title-black {
+    font-weight: 700;
+}
+
+.hero__paragraph {
+    font-size: 1.4rem;
+    color: #4F5665;
+    font-weight: 400;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+.btn-big {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    background-color: #F53838;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(245, 56, 56, 0.35) 0px 30px 40px -7px;
+
+}
+
+
 
 
 
