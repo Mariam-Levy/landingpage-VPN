@@ -482,7 +482,6 @@ html {
 .global__texts {
     min-height: 160px;
     width: 100%;
-    /* border: 1px solid #DEA54B; */
     margin-bottom: 120px;
     display: flex;
     flex-direction: column;
@@ -549,6 +548,154 @@ html {
     width: 150px;
     height: 110px;
 }
+
+/* ------------- CUSTOMER ------------ */
+.customer {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    margin-bottom: 50px;
+}
+
+.customer__vpn {
+    width: 100%;
+    /* height: 500px; */
+    /* justify-content: center; */
+    text-align: center;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    /* margin-top: 50px; */
+    align-items: center;
+}
+
+.customer__texts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid #84C318; */
+    text-align: center;
+}
+
+.customer__texts-main {
+    max-width: 418px;
+    color: #0B132A;
+    font-weight: 500;
+    font-size: 3.5rem;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.customer__texts-secundary {
+    max-width: 516px;
+    color: #4F5665;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 30px;
+}
+
+.customer__cards {
+    min-width: 100%;
+    /* border: 1px solid #EFAAC4; */
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: hidden;
+    padding-bottom: 82.5px;
+    
+}
+
+.customer__cards-one {
+    min-width: 400px;
+    height: 230px;
+    border: 1px solid #DDDDDD;
+    padding: 30px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.cards-left {
+    margin-left: 150px;
+}
+
+.card-cero {
+    margin-right: 0px;
+}
+
+.card-red {
+    border: 1px solid #F53838;
+    box-shadow: 0px 30px 40px -7px rgba(13, 16, 37, 0.16);
+}
+
+.customer__cards-description {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.users {
+    width: 182px;
+    height: 50px;
+}
+
+.punctuation {
+    width: 50px;
+    height: 16.7px;
+}
+
+.customer__cards-text {
+    text-align: left;
+    line-height: 30px;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.customer__down {
+    min-width: 100%;
+    height: 150px;
+    /* border: 1px solid yellow; */
+    /* margin-top: 82.5px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.points {
+    width: 135px;
+    height: 15px;
+    margin-left: 150px;
+}
+
+.btn.btn-modified {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -21px;
+    margin-right: 20px;
+}
+
+.btn-red {
+    background-color: #F53838;
+}
+
+.arrows {
+    display: flex;
+}
+.arrow-red {
+    width: 30px;
+    height: 30px;
+}
+
+
+
 
 
 /* Media Queries */
