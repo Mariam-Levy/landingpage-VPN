@@ -1208,42 +1208,42 @@ html {
         margin-bottom: 13px;
     }
     .btn-big__right {margin-right: 0px;}
-        /* desde aqui el experimento */
-        .final-box {min-height: 630px;}
-        .vpn-end {
-            flex-direction: column;
-            align-items: center;
-        }
-        .vpn-end__left {
-            align-items: center;
-            width: 100%;
-            margin-bottom: 10px;
-        }
-        .navbar__logo.logo-footer {
-            margin-bottom: 10px;
-            height: 50px;
-        }
-        .paragraph-left {
-            margin-bottom: 10px;
-            align-items: center;
-        }
-        .vpn-end__right {
-            width: 100%;
-            justify-content: space-between;
-            text-align: center;
-        }
-        .text-right__one{width: 102px;}
-        .text-right__two{width: 132px;}
-        .text-right__three{max-width: 124px;}
-        .product {margin-bottom: 10px;}
-        .product-list__one {
-            line-height: 23px;
-            margin-bottom: 0;
-        }
-        .text-right {
-            height: 200px;
-        }
-        .social-media {margin-bottom: 20px;}
+
+    .final-box {min-height: 630px;}
+    .vpn-end {
+        flex-direction: column;
+        align-items: center;
+    }
+    .vpn-end__left {
+        align-items: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .navbar__logo.logo-footer {
+        margin-bottom: 10px;
+        height: 50px;
+    }
+    .paragraph-left {
+        margin-bottom: 10px;
+        align-items: center;
+    }
+    .vpn-end__right {
+        width: 100%;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .text-right__one{width: 102px;}
+    .text-right__two{width: 132px;}
+    .text-right__three{width: 124px;}
+    .product {margin-bottom: 10px;}
+    .product-list__one {
+        line-height: 23px;
+        margin-bottom: 0;
+    }
+    .text-right {
+        height: 200px;
+    }
+    .social-media {margin-bottom: 20px;}
 }
 
 @media (min-width: 641px) and (max-width: 768px){
