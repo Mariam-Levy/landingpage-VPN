@@ -465,7 +465,6 @@ html {
     width: 100%;
     min-height: 100vh;
     background-color: #FFF;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
 }
@@ -474,7 +473,6 @@ html {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    /* border: 1px solid blue; */
     margin-top: 100px;
     align-items: center;
 }
@@ -658,11 +656,12 @@ html {
 
 .customer__down {
     min-width: 100%;
-    height: 150px;
+    /* height: 150px; */
     /* border: 1px solid yellow; */
     /* margin-top: 82.5px; */
     display: flex;
     justify-content: space-between;
+    margin-bottom: 181.52px;
 }
 
 .points {
@@ -694,12 +693,169 @@ html {
     height: 30px;
 }
 
+/* --------- FOOTER ------------ */
+.final-box {
+    min-height: 563.12px;
+    width: 100%;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+}
+
+.final-box__inside {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe {
+    width: 100%;
+    height: 233px;
+    margin-top: -116.5px;
+    margin-bottom: 63.5px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.vpn-end {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vpn-end__left {
+    width: 35%;
+    min-height: 241.4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe__texts {
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+.text-title {
+    max-width: 367px;
+    color: #0B132A;
+    font-weight: 500;
+    font-size: 3.5rem;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+.text-paragraph {
+    max-width: 510px;
+    color: #4F5665;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 30px;
+}
+
+.btn-big__right {
+    margin-right: 70px;
+}
+
+.vpn-end__right {
+    width: 47%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-right {
+    height: 280px;
+}
+
+.text-right__one {
+    width: 74px;
+}
+
+.text-right__two {
+    min-width: 123px;
+}
+
+.text-right__three {
+    width: 126px;
+}
+
+.product {
+    color: #0B132A;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-top: 3.12px;
+}
+
+.product-list {
+    list-style: none;
+    text-decoration: none;
+}
+
+.product-list__one {
+    margin-bottom: 10px;
+    color: #4F5665;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 30px;
+}
+
+.paragraph-left {
+    color: #4F5665;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+    max-width: 343px;
+}
+
+.navbar__logo.logo-footer {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.social-media {
+    width: 160px;
+    height: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-redes {
+    background-color: #fff;
+    color: #F53838;
+    width: 33.6px;
+    height: 33.6px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: rgb(0 0 0 / 10%) 0px 20px 25px -5px, rgb(0 0 0 / 4%) 0px 10px 10px -5px;
+}
+
+.lasles {
+    color: #AFB5C0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.texts-gray {
+    color: #AFB5C0;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 30px;
+}
 
 
 
 
 /* Media Queries */
-
 @media (min-width: 0px) and (max-width: 425px){
 
     /* ---------NAV---------- */
@@ -822,6 +978,80 @@ html {
         width: 100px;
         height: 35px;
     }
+    /* ---------- CUSTOMER -------------- */
+    .customer__cards-one {
+        margin-left: 20px;
+        min-width: 338px;
+        padding: 10px;
+    }
+    .btn.btn-modified {
+        height: 50px;
+        width: 50px;
+    }
+    .arrow-red {
+        width: 25px;
+        height: 25px;
+    }
+    .points {
+        margin-left: 20px;
+    }
+    .users {
+        margin-right: 50px;
+    }
+    /* ---------- FOOTER ----------- */
+    .subscribe {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 55px;
+    }
+    .subscribe__texts{
+        margin-left: 0px;
+        min-height: 140px;
+    }
+    .text-title {
+        font-size: 3rem;
+        line-height: 40px;
+        margin-bottom: 13px;
+    }
+    .btn-big__right {margin-right: 0px;}
+
+    /* desde aqui el experimento */
+    .final-box {min-height: 630px;}
+    .vpn-end {
+        flex-direction: column;
+        align-items: center;
+    }
+    .vpn-end__left {
+        align-items: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .navbar__logo.logo-footer {
+        margin-bottom: 10px;
+        height: 50px;
+    }
+    .paragraph-left {
+        margin-bottom: 10px;
+        align-items: center;
+    }
+    .vpn-end__right {
+        width: 100%;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .text-right__one{max-width: 100px;}
+    .text-right__two{max-width: 100px;}
+    .text-right__three{max-width: 100px;}
+    .product {margin-bottom: 10px;}
+    .product-list__one {
+        line-height: 23px;
+        margin-bottom: 0;
+    }
+    .text-right {
+        height: 200px;
+    }
+    .social-media {margin-bottom: 20px;}
 }
 
 @media (min-width: 426px) and (max-width: 640px){
@@ -945,6 +1175,75 @@ html {
         width: 100px;
         height: 35px;
     }
+
+    /* ---------- CUSTOMER -------------- */
+    .customer__cards-one {
+        margin-left: 50px;
+    }
+    .btn.btn-modified {
+        height: 50px;
+        width: 50px;
+    }
+    .arrow-red {
+        width: 25px;
+        height: 25px;
+    }
+    .points {
+        margin-left: 50px;
+    }
+
+    /* ---------- FOOTER ----------- */
+    .subscribe {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .subscribe__texts{
+        margin-left: 0px;
+        min-height: 140px;
+    }
+    .text-title {
+        font-size: 3rem;
+        line-height: 40px;
+        margin-bottom: 13px;
+    }
+    .btn-big__right {margin-right: 0px;}
+        /* desde aqui el experimento */
+        .final-box {min-height: 630px;}
+        .vpn-end {
+            flex-direction: column;
+            align-items: center;
+        }
+        .vpn-end__left {
+            align-items: center;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .navbar__logo.logo-footer {
+            margin-bottom: 10px;
+            height: 50px;
+        }
+        .paragraph-left {
+            margin-bottom: 10px;
+            align-items: center;
+        }
+        .vpn-end__right {
+            width: 100%;
+            justify-content: space-between;
+            text-align: center;
+        }
+        .text-right__one{width: 102px;}
+        .text-right__two{width: 132px;}
+        .text-right__three{max-width: 124px;}
+        .product {margin-bottom: 10px;}
+        .product-list__one {
+            line-height: 23px;
+            margin-bottom: 0;
+        }
+        .text-right {
+            height: 200px;
+        }
+        .social-media {margin-bottom: 20px;}
 }
 
 @media (min-width: 641px) and (max-width: 768px){
@@ -1062,7 +1361,47 @@ html {
         width: 100px;
         height: 35px;
     }
-    
+
+    /* ---------- FOOTER ----------- */
+    .subscribe__texts{
+    margin-left: 15px;
+    min-height: 140px;
+    }
+    .text-title {
+        font-size: 3rem;
+    }
+    .btn-big__right {margin-right: 15px;}
+
+    /* ----- EXPERIMENTO --------- */
+    .navbar__logo.logo-footer{margin-bottom: 10px;}
+    .paragraph-left {
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    .social-media{margin-bottom: 15px;}
+    .vpn-end__right {
+        width: 55%;
+        height: 210px;
+    }
+    .text-right{height: 210px;}
+    .text-right__one {
+        width: 102px;
+        text-align: center;
+        height: 210px;
+    }
+    .text-right__two {
+        width: 132px;
+        text-align: center;
+    }
+    .text-right__three {
+        width: 124px;
+        text-align: center;
+    }
+    .product{line-height: 22px;}
+    .product-list__one {
+        margin-bottom: 0;
+        line-height: 20px;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1024px){
@@ -1181,6 +1520,27 @@ html {
         width: 100px;
         height: 35px;
     }
+
+    /* --------------- FOOTER -------------- */
+    .subscribe__texts {
+        margin-left: 30px;
+    }
+    .btn-big__right {
+        margin-right: 30px;
+    }
+    .paragraph-left {
+        margin-bottom: 20px;
+    }
+    .social-media {
+        margin-bottom: 20px;
+    }
+    .vpn-end__left {
+        margin-right: auto;
+    }
+    .vpn-end__right {
+        width: 60%;
+    }
+
 }
 
 @media (min-width: 1025px) and (max-width: 1200px){
