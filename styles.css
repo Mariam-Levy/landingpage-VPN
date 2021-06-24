@@ -1016,7 +1016,7 @@ html {
     }
     .btn-big__right {margin-right: 0px;}
 
-    /* desde aqui el experimento */
+
     .final-box {min-height: 630px;}
     .vpn-end {
         flex-direction: column;
@@ -1040,9 +1040,9 @@ html {
         justify-content: space-between;
         text-align: center;
     }
-    .text-right__one{max-width: 100px;}
-    .text-right__two{max-width: 100px;}
-    .text-right__three{max-width: 100px;}
+    .text-right__one{width: 100px;}
+    .text-right__two{width: 100px;}
+    .text-right__three{width: 100px;}
     .product {margin-bottom: 10px;}
     .product-list__one {
         line-height: 23px;
